@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root{
+    --primary-color: #dfe6e9;
+    --holi-color: #c0392b;
+    --week-color: #16a085;
+    --background-color: #2d3436;
+    --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+.method{
+    color: #f1c40f;
+    font-size: smaller;
+}
+
+.normal-day{
+    color: #2980b9;
+    font-size: smaller;
+}
+
+.rest-day{
+    color: #9b59b6;
+    font-size: smaller;
+}
+
+.completed{
+    color: #27ae60;
+    font-size: smaller;
+}
+
+.good-day{
+    color: #e67e22;
+    font-size: smaller;
+}
+
+.holi-day{
+    color: #c0392b;
+    font-size: smaller;
+}

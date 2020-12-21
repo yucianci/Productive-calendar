@@ -1,0 +1,119 @@
+.day{
+    text-align: left;
+    opacity: 0.5;
+    transition: tranform 0.6s;
+}
+
+.day strong{
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+.day:hover{
+    cursor: pointer;
+    transform: translateY(-5px) translateX(-5px);
+    opacity: initial;
+}
+
+.day::after{
+    content: '';
+    width: 0%;
+    height: 0.5px;
+    background: var(--primary-color);
+    position: absolute;
+    bottom: 0%; right: 1%; top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    transition: all 700ms ease;
+}
+
+.day:hover::after{
+    
+    left: 0%;
+    right: 0%;
+    width: 11.5%;
+
+}
+
+
+.day-week{
+    text-align: left;
+    opacity: 0.5;
+    transition: tranform 0.6s;
+}
+
+.day-week p{
+    color: var(--week-color);
+}
+
+.day-week strong{
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+.day-week:hover{
+    cursor: pointer;
+    transform: translateY(-5px) translateX(-5px);
+    opacity: initial;
+}
+
+.day-week::after{
+    content: '';
+    width: 0%;
+    height: 0.5px;
+    background: var(--week-color);
+    position: absolute;
+    bottom: 0%; right: 1%; top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    transition: all 700ms ease;
+}
+
+.day-week:hover::after{
+    
+    left: 0%;
+    right: 0%;
+    width: 11.5%;
+
+}
+
+.day-holi{
+    text-align: left;
+    opacity: 0.5;
+    transition: tranform 0.6s;
+}
+
+.day-holi p{
+    color: var(--holi-color);
+}
+
+.day-holi strong{
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+.day-holi:hover{
+    cursor: pointer;
+    transform: translateY(-5px) translateX(-5px);
+    opacity: initial;
+}
+
+.day-holi::after{
+    content: '';
+    width: 0%;
+    height: 0.5px;
+    background: var(--holi-color);
+    position: absolute;
+    bottom: 0%; right: 1%; top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    transition: all 700ms ease;
+}
+
+.day-holi:hover::after{
+    
+    left: 0%;
+    right: 0%;
+    width: 11.5%;
+
+}

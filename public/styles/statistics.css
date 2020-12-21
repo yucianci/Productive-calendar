@@ -1,0 +1,114 @@
+.title-statistics{
+    text-align: center;
+    margin-top: 12%;
+}
+
+.statistics{
+
+    margin-top: 15px;
+    font-size: smaller;    
+}
+
+.subtitle-statistics:hover{
+    cursor: pointer;
+    transform: translateY(-5px) translateX(-5px);
+    opacity: initial;
+}
+
+.subtitle-statistics::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #e67e22;
+    position: absolute;
+    bottom: 0%; right: 1%; top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    transition: all 700ms ease;
+}
+
+.subtitle-statistics:hover::after{
+    
+    left: 0%;
+    right: 0%;
+    width: 100%;
+
+}
+
+.subtitle-statistics-rest:hover{
+    cursor: pointer;
+    transform: translateY(-5px) translateX(-5px);
+    opacity: initial;
+}
+
+.subtitle-statistics-rest::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #9b59b6;
+    position: absolute;
+    bottom: 0%; right: 1%; top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    transition: all 700ms ease;
+}
+
+.subtitle-statistics-rest:hover::after{
+    
+    left: 0%;
+    right: 0%;
+    width: 100%;
+
+}
+
+.subtitle-statistics-holi:hover{
+    cursor: pointer;
+    transform: translateY(-5px) translateX(-5px);
+    opacity: initial;
+}
+
+.subtitle-statistics-holi::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #c0392b;
+    position: absolute;
+    bottom: 0%; right: 1%; top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    transition: all 700ms ease;
+}
+
+.subtitle-statistics-holi:hover::after{
+    
+    left: 0%;
+    right: 0%;
+    width: 100%;
+
+}
+
+.subtitle-statistics-credits:hover{
+    cursor: pointer;
+    transform: translateY(-5px) translateX(-5px);
+    opacity: initial;
+}
+
+.subtitle-statistics-credits::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #2980b9;
+    position: absolute;
+    bottom: 0%; right: 1%; top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    transition: all 700ms ease;
+}
+
+.subtitle-statistics-credits:hover::after{
+    
+    left: 0%;
+    right: 0%;
+    width: 100%;
+
+}
