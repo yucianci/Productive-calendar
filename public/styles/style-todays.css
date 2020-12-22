@@ -1,8 +1,7 @@
 .today{
     text-align: left;
     opacity: initial;
-    transition: tranform 0.6s;
-    
+    position: relative;
 }
 
 .today:hover{
@@ -37,8 +36,7 @@
 .today-week{
     text-align: left;
     opacity: initial;
-    transition: tranform 0.6s;
-    
+    position: relative;
 }
 
 .today-week:hover{

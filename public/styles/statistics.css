@@ -4,14 +4,14 @@
 }
 
 .statistics{
-
     margin-top: 15px;
     font-size: smaller;    
 }
+.subtitle-statistics{
+    position: relative;
+}
 
 .subtitle-statistics:hover{
-    cursor: pointer;
-    transform: translateY(-5px) translateX(-5px);
     opacity: initial;
 }
 
@@ -21,23 +21,21 @@
     height: 2px;
     background: #e67e22;
     position: absolute;
-    bottom: 0%; right: 1%; top: 0%;
-    left: 0%;
+    top: 0%; left: 50%;
     border-radius: 10px;
-    transition: all 700ms ease;
+    transition: all 500ms ease;
 }
 
 .subtitle-statistics:hover::after{
-    
     left: 0%;
-    right: 0%;
     width: 100%;
+}
 
+.subtitle-statistics-rest{
+    position: relative;
 }
 
 .subtitle-statistics-rest:hover{
-    cursor: pointer;
-    transform: translateY(-5px) translateX(-5px);
     opacity: initial;
 }
 
@@ -47,23 +45,21 @@
     height: 2px;
     background: #9b59b6;
     position: absolute;
-    bottom: 0%; right: 1%; top: 0%;
-    left: 0%;
+    top: 0%; left: 50%;
     border-radius: 10px;
-    transition: all 700ms ease;
+    transition: all 500ms ease;
 }
 
 .subtitle-statistics-rest:hover::after{
-    
     left: 0%;
-    right: 0%;
     width: 100%;
+}
 
+.subtitle-statistics-holi{
+    position: relative;
 }
 
 .subtitle-statistics-holi:hover{
-    cursor: pointer;
-    transform: translateY(-5px) translateX(-5px);
     opacity: initial;
 }
 
@@ -73,23 +69,21 @@
     height: 2px;
     background: #c0392b;
     position: absolute;
-    bottom: 0%; right: 1%; top: 0%;
-    left: 0%;
+    top: 0%; left: 50%;
     border-radius: 10px;
-    transition: all 700ms ease;
+    transition: all 500ms ease;
 }
 
 .subtitle-statistics-holi:hover::after{
-    
     left: 0%;
-    right: 0%;
     width: 100%;
+}
 
+.subtitle-statistics-credits{
+    position: relative;
 }
 
 .subtitle-statistics-credits:hover{
-    cursor: pointer;
-    transform: translateY(-5px) translateX(-5px);
     opacity: initial;
 }
 
@@ -99,16 +93,12 @@
     height: 2px;
     background: #2980b9;
     position: absolute;
-    bottom: 0%; right: 1%; top: 0%;
-    left: 0%;
+    top: 0%; left: 50%;
     border-radius: 10px;
-    transition: all 700ms ease;
+    transition: all 500ms ease;
 }
 
 .subtitle-statistics-credits:hover::after{
-    
     left: 0%;
-    right: 0%;
     width: 100%;
-
 }
