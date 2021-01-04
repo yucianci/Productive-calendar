@@ -66,19 +66,30 @@ section{
 
 /* Scores days of the week
 
-- Sunday (4 weeks) - 18 + 5 = 23🔥
-- Monday (4 weeks) - 22 + 7 = 29🔥
-🥉Tuesday (4 weeks) - 25 + 8 = 33🔥
-🟣Wednesday (4 weeks) - 20 + 5 = 25🔥
-🥈Thursday (3 weeks) - 18 + 5 = 23🔥
-🥇Friday (3 weeks) - 18 + 7 = 25🔥
-- Saturday (3 weeks) - 15 + 4 = 19🔥
+- Sunday (2 weeks) - 6 + 0 = 6🔥
+🥇Monday (1 weeks) - 6 + 3 = 9🔥
+🥉Tuesday (1 weeks) - 3 + 0 = 3🔥
+- Wednesday (1 weeks) - 3 + 0 = 3🔥
+🥈Thursday (1 weeks) - 1 + 0 = 1🔥
+- Friday (1 weeks) - 3 + 2 = 5🔥
+- Saturday (1 weeks) - 3 + 0 = 3🔥
 
 🟠 - 3 points;
 🔴 - 2 points;
 🔵 - 1 point;
-⏳
+🟣 - 0 point;
+⏳ - undefined point;
+
+
+
+<div class="day">
+    <p style="margin-top: 5px;">
+        01 <span class="star">⏳</span>
+        <br>
+        <strong>⏳<br>
+            <em>⏳</em>
+        </strong>
+
+    </p>
+</div> 
 */
-
-
-
