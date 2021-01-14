@@ -70,21 +70,21 @@ em{
 /* 
     ANNOTATIONS 
 
-    Scores days of the week
+    Scores days of the  2° week
 
     Sunday (3 weeks) - 10 + 3 = 13🔥
 🥇  Monday (3 weeks) - 19 + 9 = 28🔥
     Tuesday (3 weeks) - 11 + 1 = 12🔥
 🥉  Wednesday (3 weeks) - 13 + 5 = 18🔥
-    Thursday (1 weeks) - 8 + 3 = 11🔥
-🥈  Friday (1 weeks) - 7 + 3 = 10🔥
-    Saturday (1 weeks) - 3 + 0 = 3🔥
+    Thursday (2 weeks) - 8 + 3 = 11🔥
+🥈  Friday (2 weeks) - 10 + 5 = 15🔥
+    Saturday (2 weeks) - 6 + 3 = 9🔥
 
-🟠 - 3 points;
-🔴 - 2 points;
-🔵 - 1 point;
-🟣 - null;
-⏳ - undefined;
+🟠  3 points;
+🔴  2 points;
+🔵  1 point;
+🟣  null;
+⏳  undefined;
 
 
 
@@ -103,4 +103,7 @@ em{
     <p class="statistics">Made by:</p>
     <em class="normal-day" style="justify-content: center;">@yucianci</em>
 </div>
+
+<div class="title-statistics"></div>
+
 */
