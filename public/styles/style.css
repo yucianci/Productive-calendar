@@ -24,6 +24,11 @@ section{
     color: var(--primary-color);
 }
 
+em{
+    display: flex;
+    border-top: 3px solid transparent;
+}
+
 .title-month{
     margin: 0px 50px;
     text-align: center;
@@ -62,23 +67,24 @@ section{
     margin-left: 70.5%;
 }
 
-/* ANNOTATIONS */
+/* 
+    ANNOTATIONS 
 
-/* Scores days of the week
+    Scores days of the week
 
-- Sunday (2 weeks) - 6 + 0 = 6🔥
-🥇Monday (2 weeks) - 13 + 6 = 19🔥
-🥉Tuesday (2 weeks) - 8 + 1 = 9🔥
-- Wednesday (2 weeks) - 10 + 3 = 13🔥
-- Thursday (2 weeks) - 8 + 3 = 11🔥
-🥈Friday (2 weeks) - 3 + 2 = 5🔥
-- Saturday (1 weeks) - 3 + 0 = 3🔥
+    Sunday (3 weeks) - 10 + 3 = 13🔥
+🥇  Monday (3 weeks) - 19 + 9 = 28🔥
+    Tuesday (3 weeks) - 11 + 1 = 12🔥
+🥉  Wednesday (3 weeks) - 13 + 5 = 18🔥
+    Thursday (1 weeks) - 8 + 3 = 11🔥
+🥈  Friday (1 weeks) - 7 + 3 = 10🔥
+    Saturday (1 weeks) - 3 + 0 = 3🔥
 
 🟠 - 3 points;
 🔴 - 2 points;
 🔵 - 1 point;
-🟣 - 0 point;
-⏳ - undefined point;
+🟣 - null;
+⏳ - undefined;
 
 
 
@@ -86,10 +92,15 @@ section{
     <p style="margin-top: 5px;">
         01 <span class="star">⏳</span>
         <br>
-        <strong>⏳<br>
+        <strong>⏳
             <em>⏳</em>
         </strong>
 
     </p>
-</div> 
+</div>
+
+<div class="subtitle-statistics-credits">
+    <p class="statistics">Made by:</p>
+    <em class="normal-day" style="justify-content: center;">@yucianci</em>
+</div>
 */
