@@ -7,14 +7,14 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
-    font-family: 'Quicksand', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
     display: flex;
     justify-content: center;
-    background: #1e272e;
+    background-image: radial-gradient(circle at 50% -20.71%, #173e40 0, #1a3939 8.33%, #1c3332 16.67%, #1d2d2b 25%, #1d2724 33.33%,
+    #1c201e 41.67%, #1a1819 50%, #171015 58.33%, #130511 66.67%, #0d000e 75%, #05000c 83.33%, #00000a 91.67%, #00000a 100%);
 }
 
 section{
@@ -52,14 +52,13 @@ em{
 
     padding: 10px 10px 0px;
     margin: 10px 0px 50px;
-    width: 1500px;
-    height: 1000px;
+    width: 90vw;
+    height: 115vh;
     border-radius: 5px;
 
     grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
-    grid-template-rows: 5% 17% 17% 17% 17% 17%;
+    grid-template-rows: 5% 14.15% 14.15% 14.15% 14.15% 14.15% 14.15% 10%;
 
-    
     background: transparent;
 }
 
@@ -85,13 +84,13 @@ em{
 🔵  1 point;
 🟣  null;
 ⏳  undefined;
+✈️  travelling;
 
 
 
 <div class="day">
     <p style="margin-top: 5px;">
         01 <span class="star">⏳</span>
-        <br>
         <strong>⏳
             <em>⏳</em>
         </strong>
